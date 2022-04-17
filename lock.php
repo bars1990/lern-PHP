@@ -12,12 +12,12 @@
     <input type="submit" name="doGo" value="Click Hire!">
 </form>
 <?php
-} else {
-    if($_REQUEST['login'] == "root" && $_REQUEST['password'] == "Z10N0101"){
+} else if($_REQUEST['login'] == "root" && $_REQUEST['password'] == "Z10N0101"){
         echo "Доступ открыт для пользователя: {$_REQUEST['login']}";
     } else{
         echo "Доступ закрыт!";
-    }
+
+
 } ?>
 </body>
 
